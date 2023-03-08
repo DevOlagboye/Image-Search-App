@@ -50,10 +50,10 @@ const Search = () => {
             return (
               <>
                 <img
-                  className="images"
                   key={val.id}
+                  className="images"
                   src={val.urls.small}
-                  alt={val.alt_description}
+                  alt="val.alt_description"
                 />
               </>
             );
