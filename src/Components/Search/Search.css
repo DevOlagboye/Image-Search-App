@@ -24,6 +24,11 @@
     margin-top: 30px;
 }
 
+.error {
+    color: red;
+    text-align: center;
+}
+
 .image-container>img {
     width: 320px;
     height: 250px;
