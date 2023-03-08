@@ -14,3 +14,11 @@
 .search-container>button:hover {
     cursor: pointer;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
