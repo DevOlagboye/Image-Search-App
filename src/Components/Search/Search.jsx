@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Search.css";
-import errorIllustration from "../../images/error-illustration.svg"
+import errorIllustration from "../../images/error-illustration.svg";
 
 const Search = () => {
   const [img, setImg] = useState("");
@@ -37,7 +37,14 @@ const Search = () => {
 
       <div className="image-container">
         {res.length === 0 ? (
-          <p className="error">Kindly Make A Search</p>
+          <>
+            <p className="error">Kindly Make A Search</p>
+            <img
+              src={errorIllustration}
+              alt="error Illustration"
+              className="image-illustration"
+            />
+          </>
         ) : (
           res.map((val) => {
             return (

@@ -26,10 +26,15 @@
 
 .error {
     color: red;
+    width: 100%;
     text-align: center;
 }
 
-.image-container>img {
+.image-illustration {
+    width: 320px;
+}
+
+.images {
     width: 320px;
     height: 250px;
     object-fit: cover;
