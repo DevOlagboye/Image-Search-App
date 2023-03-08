@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Search.css";
+import errorIllustration from "../../images/error-illustration.svg"
 
 const Search = () => {
   const [img, setImg] = useState("");
