@@ -8,7 +8,7 @@ const Search = () => {
   const inputRef = useRef();
   const fetchRequest = async () => {
     const data = await fetch(
-      `https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=${process.env.REACT_APP_ACCESS_KEY}`
+      `https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=${process.env.REACT_APP_ACCESS_KEY}&per_page=15`
     );
     const dataJ = await data.json();
     const result = dataJ.results;
