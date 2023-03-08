@@ -22,3 +22,9 @@
     align-items: center;
     gap: 30px;
 }
+
+.image-container>img {
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+}
