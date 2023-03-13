@@ -23,7 +23,7 @@ const Search = () => {
     setImg("");
   };
   let checkInput = () => {
-    console.log(inputRef);
+    console.log(inputRef.current.value);
   };
   return (
     <div className="search-container">
