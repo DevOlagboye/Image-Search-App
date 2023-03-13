@@ -22,9 +22,13 @@ const Search = () => {
     fetchRequest();
     setImg("");
   };
+  let checkInput = () => {
+    console.log(inputRef);
+  };
   return (
     <div className="search-container">
       <input
+        onKeyUp={checkInput}
         ref={inputRef}
         type="text"
         placeholder="Search Anything"
